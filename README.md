@@ -1,1 +1,1 @@
-# Async file upload with JQuery and ASP.NET Web Api
+# Async file upload using JQuery, FormData and ASP.NET Web Api
