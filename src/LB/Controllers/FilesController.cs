@@ -25,7 +25,6 @@ namespace LB.Controllers
 
                 await Request.Content.ReadAsMultipartAsync(provider);
 
-                var filesToAttach = new Dictionary<string, byte[]>();
                 var path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Upload");
 
                 foreach (var file in provider.Contents)
